@@ -1,0 +1,48 @@
+body,
+html {
+  background: linear-gradient(#f6ade6, #f5cff4, #ffff);
+  height: 100%;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.j {
+  height: 350px;
+  width: 350px;
+}
+
+.h1 {
+  font-family: "Boogaloo", serif;
+  font-weight: bold;
+  color: red;
+}
+.button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.button1 {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
